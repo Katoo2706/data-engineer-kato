@@ -35,15 +35,39 @@ the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 Sign in to GitHub and [**use this template**][use-template] to generate a brand new repository and name it
 `USERNAME.github.io`, where `USERNAME` represents your GitHub username.
 
+```bash
+# install rvm
+\curl -sSL https://get.rvm.io | bash -s stable
+
+source /Users/kato/.rvm/scripts/rvm
+
+rvm get stable
+
+rvm cleanup all
+
+rvm reinstall 3.2.0 --with-openssl-dir=$(brew --prefix openssl) --with-readline-dir=$(brew --prefix readline) --with-libyaml-dir=$(brew --prefix libyaml) --disable-dtrace --disable-docs
+```
+
 Then clone it to your local machine and run:
 
 ```console
 $ bundle
 ```
 
+Run local dev
+```bash
+bundle exec jekyll s
+
+
+# live server
+bundle exec jekyll serve --open-url --livereload
+```
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
+
+Favicon generator: https://realfavicongenerator.net/
 
 ## License
 

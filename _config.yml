@@ -14,9 +14,9 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Kato the engineer # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Python/Scala data engineer with experience in data engineering, data-ops, and data analytics, as well as software skills. # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -26,16 +26,16 @@ description: >- # used by seo meta and the atom feed
 url: ""
 
 github:
-  username: github_username # change to your github username
+  username: katoo2706 # change to your github username
 
-twitter:
+linkedin:
   username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: kato
+  email: katoo2706@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://twitter.com/username # change to your twitter homepage
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: 'assets/img/favicons/avatar.jpg'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
