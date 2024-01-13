@@ -1,14 +1,12 @@
 ---
-title: Marketing Data Integrations
+title: Azure Databricks & Spark for Data Engineers (PySpark / SQL)
 author: kato
-date: 2023-12-01 00:10:00 +0800
-categories: [Projects, Marketing]
-tags: [Python, Apache Airflow]
+date: 2023-11-01 14:10:00 +0800
+categories: [Microsoft Azure, Databricks]
+tags: [Pyspark, Databricks, Microsoft Azure, Azure Data Factory]
 render_with_liquid: false
 published: true
 ---
-
-## Marketing platform data integrations
 
 > Updating...
 {: .prompt-info }

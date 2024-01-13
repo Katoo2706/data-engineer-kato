@@ -1,8 +1,8 @@
 ---
-title: Project - Human Resources
+title: Human Resources Data warehouse
 author: kato
 date: 2023-06-20 14:10:00 +0800
-categories: [Projects, Human Resources]
+categories: [Projects, Human Resources Data warehouse]
 tags: [MongoDB, Docker, Streamlit, Cloud Deta, Postgres, Apache Airflow]
 render_with_liquid: false
 published: true
@@ -30,6 +30,8 @@ published: true
 In this project, I use `Streamlit` to develop a Data Collector Application to gather metrics data from Business user.\
 Data from Data Collector will be stored in Cloud Database (`Mongo Atlas`)
 
+![streamlit-app](./assets/post/streamlit-advesa.png)
+
 ## Staging Area
 > NoSQL Database: `MongoDB`
 
@@ -40,4 +42,4 @@ On the other hand, It can make the extract and load process will be fault tolera
 
 ## Learn More
 
-For more knowledge about my posts, reach me via [katoo@gmail.com](mailto:katoo@gmail.com)
+For more knowledge about my posts, reach me via [katoo2706@gmail.com](mailto:katoo2706@gmail.com)

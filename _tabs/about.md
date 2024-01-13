@@ -103,11 +103,11 @@ order: 4
 -------
 ## My Journey
 
-#### **Data Analytics & Engineering Mentor** - FUNiX School | `Jul 2023` - `Now`
+#### <kbd><strong>Data Analytics & Engineering Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
 - Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
 - Curriculum Innovation: Enhanced curriculum with industry insights, ensuring students are job-ready in evolving data landscapes.
 
-#### **Data Engineer** - Breadstack Technologies | `Oct 2022` - `Now`
+#### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
 - **Scope of works:** Data Engineer, Data Architecture & Operations.
 - **Responsibilities:**
   - Build data warehouse system + Data Operations, Data Applications, ETL & ELT pipelines, and software integration with analytics dashboard.
@@ -121,7 +121,7 @@ order: 4
 
 **Technology usages:** ClickHouse · Apache Superset · Data Warehousing · Data Engineering · Mongo Atlas · MinIO · SQL · Streamlit · Python (Programming Language) · Data Modeling · Apache Airflow · PostgreSQL · MongoDB
 
-#### **ALM Specialist** - TPBank | `Jan 2022` - `Oct 2022`
+#### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jan 2022` - `Oct 2022`
 - **Responsibility:**
   - Build Python module to auto-cleanse data, build reports, and ETL data automatically
   - ALCO report / GAP report.
@@ -133,7 +133,7 @@ order: 4
 
 **Technology usages:** Python · PowerBI · SQL · Qlikview
 
-#### **Data Analyst** - Hong Ngoc Group | `Apr 2020` - `May 2022`
+#### <kbd><strong>Data Analyst</strong></kbd> - Hong Ngoc Group | `Apr 2020` - `May 2022`
 - **Responsibility:**
   - Manage Services’ cost components, Services’ pricing.
   - Work with BE team to improve the data system.
@@ -146,6 +146,6 @@ order: 4
 
 > *"For me, certificates are not an end in themselves. As far as I am concerned, it's about the progress to achieve all of that."*
 
-> **IBM Data Engineering Professional Certificate** <a href="https://www.credly.com/badges/1ec2274c-8c05-411a-94e0-e0e20927e5f2/" target="_blank"> <img src="..%2Fassets%2Fpost%2Fcredly.png" alt="Certification Icon" style="height: 20px;"> </a>
+> **IBM Data Engineering Professional Certificate** &nbsp; <a href="https://www.credly.com/badges/1ec2274c-8c05-411a-94e0-e0e20927e5f2/" target="_blank"> <img src="..%2Fassets%2Fpost%2Fcredly.png" alt="Certification Icon" style="height: 20px;"> </a>
 
 > <a href="https://www.linkedin.com/in/katoo2706/details/certifications/" target="_blank"> <img src="..%2Fassets%2Fimg%2Flogo%2Flinkedin.png" alt="Certification Icon" style="height: 18px;"> </a>

@@ -1,14 +1,12 @@
 ---
-title: Marketing Data Integrations
+title: Sales & Marketing Data warehouse
 author: kato
-date: 2023-12-01 00:10:00 +0800
-categories: [Projects, Marketing]
-tags: [Python, Apache Airflow]
+date: 2023-06-20 14:10:00 +0800
+categories: [Projects, Sales & Marketing Data warehouse]
+tags: [Apache Airflow, Kubernetes, Helm chart, DBT]
 render_with_liquid: false
 published: true
 ---
-
-## Marketing platform data integrations
 
 > Updating...
 {: .prompt-info }
