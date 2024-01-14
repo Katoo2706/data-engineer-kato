@@ -3,7 +3,7 @@ title: Human Resources Data warehouse
 author: kato
 date: 2023-06-20 14:10:00 +0800
 categories: [Projects, Human Resources Data warehouse]
-tags: [MongoDB, Docker, Streamlit, Cloud Deta, Postgres, Apache Airflow]
+tags: [MongoDB, Docker, Streamlit, Cloud Deta, Postgres, Apache Airflow, Apache Arrow, PyMongoArrow, Pandas]
 render_with_liquid: false
 published: true
 ---
@@ -34,6 +34,8 @@ Data from Data Collector will be stored in Cloud Database (`Mongo Atlas`)
 
 ## Staging Area
 > NoSQL Database: `MongoDB`
+
+Use Pymongoarrow to read data from MongoDB and take advantages of Pandas-struct field.
 
 Using non-structured database for staging area will take the advantages of data retrieval from different data sources and we don't need to take time to ensure the data source structure.
 On the other hand, It can make the extract and load process will be fault tolerance and easy to scale.

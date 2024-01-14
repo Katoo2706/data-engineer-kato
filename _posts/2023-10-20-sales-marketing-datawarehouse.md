@@ -3,7 +3,7 @@ title: Sales & Marketing Data warehouse
 author: kato
 date: 2023-06-20 14:10:00 +0800
 categories: [Projects, Sales & Marketing Data warehouse]
-tags: [Apache Airflow, Apache Spark, Polars, Kubernetes, Helm chart, DBT]
+tags: [Apache Airflow, Apache Spark, Polars, Apache Arrow, Pandas, Kubernetes, Helm chart, DBT]
 render_with_liquid: false
 published: true
 ---
