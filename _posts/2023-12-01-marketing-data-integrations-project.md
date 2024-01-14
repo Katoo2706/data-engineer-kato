@@ -3,7 +3,7 @@ title: Marketing Data Integrations
 author: kato
 date: 2023-12-01 00:10:00 +0800
 categories: [Projects, Marketing]
-tags: [Python, Apache Airflow]
+tags: [Python, Apache Airflow, Polars]
 render_with_liquid: false
 published: true
 ---

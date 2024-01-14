@@ -16,7 +16,7 @@ order: 4
     <details>
       <summary><strong>Language</strong></summary>
       <ul>
-        <li><strong>Python: </strong> PySpark, Pandas / Polars (Robust data processing library), Django / Flask (Backend system), Streamlit, Web scrap</li>
+        <li><strong>Python: </strong> PySpark, Pandas / <strong>Polars</strong> (Robust single node data processing), Django / Flask (Backend system), Streamlit, Web scrap</li>
         <li><strong>Scala:</strong> Spark, Spark Streaming</li>
         <li>Advanced SQL</li>
       </ul>
@@ -43,7 +43,7 @@ order: 4
       <ul>
         <li><strong>Apache Airflow</strong> (Ochestration), Airbyte (Data ingestion layer), DBT (Data Builder Tool) (Transformation layer)</li>
         <li><strong>Spark, Spark Streaming (Scala)</strong> - Distributed data processing</li>
-        <li>Flask backend API: Data-driven Application, Streamlit: Data product</li>
+        <li><strong>Flask backend API</strong>: Data-driven Application, Streamlit: Data product</li>
         <li>Enterprise: Azure Data Factory, Databricks flow (Microsoft Azure)</li>
       </ul>
     </details>
