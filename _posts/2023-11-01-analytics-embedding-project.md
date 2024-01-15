@@ -1,5 +1,5 @@
 ---
-title: Embedding BI dashboard on Software 
+title: Embedding BI dashboard on Software project
 author: kato
 date: 2023-11-01 14:10:00 +0800
 categories: [Projects, BI dashboard embedding]

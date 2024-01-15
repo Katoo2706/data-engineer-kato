@@ -1,5 +1,5 @@
 ---
-title: Human Resources Data warehouse
+title: Human Resources Data warehouse project
 author: kato
 date: 2023-06-20 14:10:00 +0800
 categories: [Projects, Human Resources Data warehouse]

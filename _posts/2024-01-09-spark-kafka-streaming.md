@@ -1,49 +1,65 @@
 ---
-title: Spark Streaming 3 and integrate with Kafka, JDBC, Cassandra with Scala
+title: Spark Streaming 3 and Integrate with Kafka, JDBC, Cassandra with Scala
 author: kato
 date: 2024-01-09 00:10:00 +0800
 categories: [Data Processing, Streaming]
-tags: [Apache Spark, Apache Kafka, Scala]
+tags: [Apache Spark, Apache Kafka, Scala, Cassandra, Postgres]
 render_with_liquid: false
 published: true
 ---
 
-## Structured Streaming Principles
+## Introduction
+
+In this personal project, I am using Scala to leverage Spark Structured Streaming.
+- Read stream data from socket, using `Netcat` to create a local socket and input data
+- Read stream data from a `Kafka` topics.
+- Read stream data from `folders`
+- Write data to `Socket`, `Kafka topics`, `Cassandra`, `Postgres`
+
+**Tech usages:** `Netcat`, `Apache Kafka`, `Apache Spark`, `Cassandra`, `Scala`
+
+Git repo: [<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="20">](https://github.com/Katoo2706/spark-streaming-scala)
+
+## General Concepts:
 
 [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html)
 
-###  Lazy evaluation: Transformations and Actions:
+### 1. Lazy evaluation: Transformations and Actions:
 - transformations describe of how new DFs are obtained
 - actions start executing/ running Spark code
 
 
-### 1. Input sources:
+###  2. I/O
+#### Input sources:
+
 > Method: readStream
 - Kafka (Have many sources and have topics as output sink), Flume
 - A distributed file system
 - Sockets: (Kafka, Flink, Pulsar, MQTT (Message Queuing Telemetry Transport), Nifi)
 
-### 2. Output sink
+#### Output sinks:
 > Method: writeStream
 - A distributed file system
 - databases
 - Kafka
 - Testing sink e.g. console, memory
 
-## Streaming I/O
-### 1. Output modes
+### 3. Streaming Output modes
 - append = only add new records
 - update = modify records in place <- if query has no aggregations, equivalent will apend
 - complete = rewrite everything
 
-### 2. Not all queries and sink support all output modes
-- Example: Aggregations and append mode
-
-### 3. Triggers = when new data is written
+### 4. Triggers = when new data is written
 - default: write as soon as current micro-batch has been processed
 - once: write a single micro-batch and stop
 - processing-time: look for new data at fixed intervals
 - continuous (currently experimental)
+
+## 1. Streaming DataFrame Join
+- Join data in micro-batches
+- Structure Streaming join API
+
+Create trigger for streaming pipeline
 
 ```scala
 import org.apache.spark.sql.streaming.Trigger
@@ -73,18 +89,15 @@ def demoTriggers() = {
 demoTriggers()
 ```
 
-## Streaming DataFrame Join
-- Join data in micro-batches
-- Structure Streaming join API
 
-### 1. Restricted joins:
+### Restricted joins:
 - Stream joining with static: RIGHT outer join/FULL outer join/ RIGHT semi not permitted
 - Static joining with stream: LEFT outer join/FULL outer join/ LEFT semi not permitted
 - Stream joining with Stream:
   - inner join optionally with a watermark
   - left/right outer join ONLY with a watermark
 
-### 2. Dataset Stream
+### Dataset Stream
 - Same DS Conversion as non-streaming DS
 - Streaming DSs support functional operators
 - Tradeoffs:
@@ -92,14 +105,14 @@ demoTriggers()
   - cons: potential perf implications as lambdas can not be optimized
 
 
-### 3. Low-level (Discretized stream - DStreams)
+### Low-level Streaming (Discretized stream - DStreams)
 > This is deprecated as of Spark 3.4.0. There are no longer updates to DStream and it's a legacy project.
 > There is a newer and easier to use streaming engine in Spark called Structured Streaming.
 
 > You should use Spark Structured Streaming for your streaming applications.
 
 
-## Spark Streaming Integrations
+## 2. Spark Streaming Integrations
 > Spark & Kafka integration: [Reference](https://spark.apache.org/docs/latest/structured-streaming-kafka-integration.html)
 
 ### Kafka & Spark Structured Streaming
@@ -219,7 +232,7 @@ If any new data are producer to topic rockthejvm, consumer will consume that dat
 
 Check the simple Kafka Producer Application in Scala: [KafkaProducerApp.scala](src%2Fmain%2Fscala%2Fintegrations%2FKafkaProducerApp.scala)
 
-Or in Python: 
+Or in Python, you can create a simple KafkaProducer by below syntax: 
 ```python
 from kafka import KafkaProducer
 from typing import Any
@@ -294,20 +307,18 @@ def writeCarsToKafka() = {
 }
 ```
 
-## Test the checkpoints function for Spark Structured Streaming.
-1. Edit file:
+Note: 
 - Once processed, changes to a file within the current window will not cause the file to be reread. I suggest using `Delta table` to read the change data storage.
 ```scala
 spark.readStream.format("delta")
         .option("ignoreDeletes", "true")
         .load("/tmp/delta/user_events")
 ```
-- Need to rerun the application to re-consume all the old data.
-2. Insert file to folder:
-- Copy new file to folder
+- Need to rerun the application to re-consume all the old data
+- If we want to insert file to folder, we need to copy new file to folder.
 -> New file data will be processed. And checkpoints will save the metadata for that file.
 
-## JDBC Integration 
+### JDBC Integration 
 - So the batch is a static data set or data frame. Import data set in batches to manage data types
 Limitations:
 - You can't read streams from JDBC
@@ -332,6 +343,7 @@ See data after ingestion:
 ```bash
 docker exec -it rockthejvm-sparkstreaming-cassandra cqlsh
 ```
+
 ```sql
 CREATE KEYSPACE public WITH REPLICATION = { 'class': 'SimpleStrategy', 'replication_factor': 1 };
 
@@ -342,6 +354,7 @@ CREATE TABLE public.cars(
 SELECT * FROM public.cars;
 ```
 ### ForeachWriter method
+
 ```scala
 /**
  * ForeachWriter: New advanced technique
@@ -368,7 +381,7 @@ class CarCassandraForeachWriter extends ForeachWriter[Cars] {
 }
 ```
 
-## EventTimeWindow
+## 3. Advanced -  EventTimeWindow
 Window functions on Structured Streaming:
 - Aggregations on time-based groups
 - Essential concepts:
@@ -472,7 +485,7 @@ Return
 +-------------------+-------------------+-------------+
 ```
 
-## Watermarking
+## 4. Advanced - Watermarking
 Watermarking is a feature in Spark Structured Streaming that is used to handle the data that arrives late. Spark Structured Streaming can maintain the state of the data that arrives, store it in memory, and update it accurately by aggregating it with the data that arrived late.
 
 For example, say, a word generated at 12:04 (i.e. event time) could be received by the application at 12:11. The application should use the time 12:04 instead of 12:11 to update the older counts for the window 12:00 - 12:10.

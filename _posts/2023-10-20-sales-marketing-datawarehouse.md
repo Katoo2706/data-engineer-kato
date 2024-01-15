@@ -1,5 +1,5 @@
 ---
-title: Sales & Marketing Data warehouse
+title: Sales & Marketing Data warehouse project
 author: kato
 date: 2023-06-20 14:10:00 +0800
 categories: [Projects, Sales & Marketing Data warehouse]
@@ -8,8 +8,23 @@ render_with_liquid: false
 published: true
 ---
 
-## Data Ingestion layer
+## Introduction
+
+## Project Architecture
+Data Architecture Design (by @Kato)
+![Data architecture](/assets/post/data-architect-design.png)
+
+Core Warehouse Design
+![Warehouse architecture](/assets/post/warehouse-architect.png)
+
+## 1. Data Ingestion layer
+![Polars](/assets/post/polars.png){: width="300" height="589" .w-30 .left}
+<br>
 **Ingestion framwork:**`Polars` with Python to process data on a single machine. [Polars](https://pola.rs/) is a scalable and efficient framework for handling data and is considered as an alternative to the very popular pandas library.
+
+Compared to pandas, it can achieve more than 30x performance gains.
+
+<div style="clear:both;"></div> 
 
 
 > Updating...
