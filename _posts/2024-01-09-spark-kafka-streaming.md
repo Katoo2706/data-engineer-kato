@@ -18,7 +18,7 @@ In this personal project, I am using Scala to leverage Spark Structured Streamin
 
 **Tech usages:** `Netcat`, `Apache Kafka`, `Apache Spark`, `Cassandra`, `Scala`
 
-Git repo: [<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="20">](https://github.com/Katoo2706/spark-streaming-scala)
+**Git repo:** &nbsp; [<img src="https://git-scm.com/images/logos/1color-lightbg@2x.png" width="45">](https://github.com/Katoo2706/spark-streaming-scala)
 
 ## General Concepts:
 

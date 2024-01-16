@@ -103,23 +103,22 @@ order: 4
 -------
 ## My Journey
 
-#### <kbd><strong>Data Analytics & Engineering Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
-- Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
-- Curriculum Innovation: Enhanced curriculum with industry insights, ensuring students are job-ready in evolving data landscapes.
-
 #### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
 - **Scope of works:** Data Engineer, Data Architecture & Operations.
 - **Responsibilities:**
-  - Build data warehouse system + Data Operations, Data Applications, ETL & ELT pipelines, and software integration with analytics dashboard.
+  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, and software integration with analytics dashboard.
 
 1. **Design and manage all data architecture for these projects:**
     - Ecommerce & Marketing analytics project: RDBMS, ETL (Apache Airflow), rest API framework, Power BI
-    - HR project: RDBMS, MongoDB, Streamlit - Mongo Atlas, ETL (Apache Airflow), Object Storage (MinIO)
+    - HR project: RDBMS, MongoDB, Streamlit (to build data products)  - Mongo Atlas, ETL (Apache Airflow), Object Storage (MinIO)
     - Analytical Dashboard project: Clickhouse, redis, Apache Airflow, Postgres, ETL server (Flask rest API), Open-source analytics server + embedding architecture (Config infrastructure on Google Cloud with Helm chart + Kubernetes)
 2. **Data sources integrations:**
     - Google Analytics, CRM, ERP system, Klaviyo, Social Platforms (Facebook / Instagram / Twitter / Linkedin), Company’s CRM softwares (Breadstack, Chatso), Task management (Jira, Trello)
 
 **Technology usages:** ClickHouse · Apache Superset · Data Warehousing · Data Engineering · Mongo Atlas · MinIO · SQL · Streamlit · Python (Programming Language) · Data Modeling · Apache Airflow · PostgreSQL · MongoDB
+
+#### <kbd><strong>Analytics Engineering Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
+- Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
 
 #### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jan 2022` - `Oct 2022`
 - **Responsibility:**

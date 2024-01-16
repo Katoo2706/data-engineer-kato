@@ -20,9 +20,11 @@ Core Warehouse Design
 ## 1. Data Ingestion layer
 ![Polars](/assets/post/polars.png){: width="300" height="589" .w-30 .left}
 <br>
-**Ingestion framwork:**`Polars` with Python to process data on a single machine. [Polars](https://pola.rs/) is a scalable and efficient framework for handling data and is considered as an alternative to the very popular pandas library.
+**Ingestion framework:**`Polars` with Python to process data on a single machine. [Polars](https://pola.rs/) is a scalable and efficient framework for handling data and is considered as an alternative to the very popular pandas library.
 
 Compared to pandas, it can achieve more than 30x performance gains.
+
+Moreover, Polars can handle data type and struct fields very well, which could help us a lot to process data from MongoDB.
 
 <div style="clear:both;"></div> 
 

@@ -11,7 +11,7 @@ published: true
 ## Introduction
 This personal project, I use `PySpark` on `Databrick` on `Azure` to build data warehouse with Medallion architecture
 
-Git repo: [<img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" width="20">](https://github.com/Katoo2706/AzureDataEngineer/tree/production/src/Fomular1)
+**Git repo:** &nbsp; [<img src="https://git-scm.com/images/logos/1color-lightbg@2x.png" width="45">](https://github.com/Katoo2706/AzureDataEngineer/tree/production/src/Fomular1)
 
 ## General concept
 
