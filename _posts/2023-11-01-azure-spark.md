@@ -224,7 +224,7 @@ To use Managed Service Identity
 
 | Set up the storage account                | Get parameter as directory                 |
 |-------------------------------------------|--------------------------------------------|
-| ![Left Image](.//assets/post/azure/adf-metadata-1.png) | ![Right Image](.//assets/post/azure/adf-metadata-2.png) |
+| ![Left Image](/assets/post/azure/adf-metadata-1.png) | ![Right Image](/assets/post/azure/adf-metadata-2.png) |
 
 **Check if data exists or not**
 ![adf-if-condition.png](/assets/post/azure/adf-if-condition.png)
