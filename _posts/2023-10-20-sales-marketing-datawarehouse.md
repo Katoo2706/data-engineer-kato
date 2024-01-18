@@ -28,6 +28,25 @@ Moreover, Polars can handle data type and struct fields very well, which could h
 
 <div style="clear:both;"></div> 
 
+## 2. Why Medallion architecture?
+Before we delve into the architectural decisions, let's first discuss all data sources and the data sinks. This will provide us with the necessary context to understand the rationale behind these decisions.
+
+Data Sources: Given the project's scope, data acquisition involves pulling data from both a `NoSQL database` (`MongoDB`) and external data sources from the Marketing departments (such as `Social channels`, `GA`, etc.). This poses a challenge for Data Engineers when new data fields are introduced.
+
+While `MongoDB` is an excellent choice for storing software data due to its scalability and extensibility, it lacks consistency. If new fields are added without prior notification, issues arise because the raw database structure differs from the structured database. Although projections can be implemented to prevent this, the preference is to avoid introducing new fields in the data sources altogether.
+
+If changes extend beyond adding fields to altering column names or deleting existing fields, the traditional data warehouse architecture demands rebuilding the entire ETL pipeline. This involves adding new tables, deleting old ones, and renaming to ensure connectivity with BI tools.
+
+**Enter the Medallion architecture, a lifesaver in such scenarios. Here's what you need to do:**
+1. Revise your query from MongoDB.
+2. Drop raw tables in the raw database and set a checkpoint time for incremental extraction in the logging table.
+3. Modify the SQL scripts for DBT.
+4. Re-run the process. DBT will automatically adjust the schema structure if new fields arrive with the parameter on_schema_change = sync_all_columns.
+
+> This approach ensures `clarity` and `transparency` when maintaining data pipelines, and fault tolerance.
+{: .prompt-tip }
+
+## 3. What's else?
 
 > Updating...
 {: .prompt-info }

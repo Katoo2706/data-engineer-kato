@@ -109,11 +109,13 @@ order: 4
   - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, and software integration with analytics dashboard.
 
 1. **Design and manage all data architecture for these projects:**
-    - Ecommerce & Marketing analytics project: RDBMS, ETL (Apache Airflow), rest API framework, Power BI
-    - HR project: RDBMS, MongoDB, Streamlit (to build data products)  - Mongo Atlas, ETL (Apache Airflow), Object Storage (MinIO)
-    - Analytical Dashboard project: Clickhouse, redis, Apache Airflow, Postgres, ETL server (Flask rest API), Open-source analytics server + embedding architecture (Config infrastructure on Google Cloud with Helm chart + Kubernetes)
+    - Sales & Marketing Data warehouse project: Clickhouse on Google Kubernetes Engine, Apache Airflow + DBT + Polars (ELT system), Google Cloud Storage, MongoDB, PostgreSQL, Metabase / Superset.
+    - HR project Data warehouse project: MongoDB, Mongo Atlas, Airflow, Streamlit, MinIO, PostgreSQL
+    - Data products: Streamlit + Google Drive API (Data Collector), Slackbot (Using Flask as event handling)
 2. **Data sources integrations:**
-    - Google Analytics, CRM, ERP system, Klaviyo, Social Platforms (Facebook / Instagram / Twitter / Linkedin), Company’s CRM softwares (Breadstack, Chatso), Task management (Jira, Trello)
+    - Google Analytics, CRM, ERP system, Klaviyo, Social Platforms (Facebook / Instagram / Twitter / Linkedin)
+    - Company's CRM softwares: Breadstack, Chatso.
+    - Task management: Jira, Trello.
 
 **Technology usages:** ClickHouse · Apache Superset · Data Warehousing · Data Engineering · Mongo Atlas · MinIO · SQL · Streamlit · Python (Programming Language) · Data Modeling · Apache Airflow · PostgreSQL · MongoDB
 
@@ -127,9 +129,7 @@ order: 4
   - Daily FTP data management.
   - Coordinating implementation of liquidity management, optimizing cash flow on the balance sheet scale.
   - Make management reports as required and assigned.
-  - Build automatic EDA with Python engine, transform old report to BI visualization,
-  - Model to predict the CASA ratio, and pre-payment ratio.
-
+  - Build automatic EDA with Python engine, transform old report to BI visualization.
 **Technology usages:** Python · PowerBI · SQL · Qlikview
 
 #### <kbd><strong>Data Analyst</strong></kbd> - Hong Ngoc Group | `Apr 2020` - `May 2022`
