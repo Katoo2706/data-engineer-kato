@@ -105,8 +105,8 @@ order: 4
 
 #### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
 - **Scope of works:** Data Engineer, Data Architecture & Operations.
-- **Responsibilities:**
-  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, and software integration with analytics dashboard.
+- **General responsibilities:**
+  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, build Data Catalog system and Data products to delivery analytics result to Business users.
 
 1. **Design and manage all data architecture for these projects:**
     - Sales & Marketing Data warehouse project: Clickhouse on Google Kubernetes Engine, Apache Airflow + DBT + Polars (ELT system), Google Cloud Storage, MongoDB, PostgreSQL, Metabase / Superset.

@@ -38,10 +38,10 @@ While `MongoDB` is an excellent choice for storing software data due to its scal
 If changes extend beyond adding fields to altering column names or deleting existing fields, the traditional data warehouse architecture demands rebuilding the entire ETL pipeline. This involves adding new tables, deleting old ones, and renaming to ensure connectivity with BI tools.
 
 **Enter the Medallion architecture, a lifesaver in such scenarios. Here's what you need to do:**
-1. Revise your query from MongoDB.
+1. Revise your query from `MongoDB`.
 2. Drop raw tables in the raw database and set a checkpoint time for incremental extraction in the logging table.
 3. Modify the SQL scripts for DBT.
-4. Re-run the process. DBT will automatically adjust the schema structure if new fields arrive with the parameter on_schema_change = sync_all_columns.
+4. Re-run the process. `DBT` will automatically adjust the schema structure if new fields arrive with the parameter `on_schema_change` = `sync_all_columns`.
 
 > This approach ensures `clarity` and `transparency` when maintaining data pipelines, and fault tolerance.
 {: .prompt-tip }
