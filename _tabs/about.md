@@ -48,6 +48,10 @@ order: 4
       </ul>
     </details>
     
+  </div>
+
+  <div style="flex: 1;">
+
     <details>
       <summary><strong>Data Warehouse</strong></summary>
       <ul>
@@ -56,11 +60,6 @@ order: 4
         <li><strong>Delta Lake</strong> (Lake house architecture)</li>
       </ul>
     </details>
-
-
-  </div>
-
-  <div style="flex: 1;">
 
     <details>
       <summary><strong>Data Lake – Object Storage</strong></summary>
@@ -81,18 +80,11 @@ order: 4
     </details>
 
     <details>
-      <summary><strong>Data Quality</strong></summary>
+      <summary><strong>Data Operations: </strong></summary>
       <ul>
-        <li>Great Expectation (dbt_expectation)</li>
-      </ul>
-    </details>
-
-    <details>
-      <summary><strong>Data Catalog</strong></summary>
-      <ul>
-        <li>dbdocs, dbdiagrams</li>
-        <li>dbt documents sever</li>
-        <li>Datahub</li>
+        <li>Google Kubernetes Engine, Docker </li>
+        <li><strong>Data Catalog:</strong> Datahub, dbdiagrams, dbt documents sever</li>
+        <li><strong>Data Quality:</strong> Great Expectation (dbt_expectation)</li>
       </ul>
     </details>
 
