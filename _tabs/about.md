@@ -114,7 +114,7 @@ order: 4
 #### <kbd><strong>Analytics Engineering Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
 - Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
 
-#### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jan 2022` - `Oct 2022`
+#### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jul 2022` - `Oct 2022`
 - **General responsibility:**
   - Build Python module to auto-cleanse data, build reports, and ETL data automatically
   - ALCO report / GAP report.
