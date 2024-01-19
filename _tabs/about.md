@@ -98,7 +98,7 @@ order: 4
 #### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
 - **Scope of works:** Data Engineer, Data Architecture & Operations.
 - **General responsibilities:**
-  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, build Data Catalog system and Data products to delivery analytics result to Business users.
+  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, build Data Catalog system and Data products to deliver analytics results to Business users.
 
 1. **Design and manage all data architecture for these projects:**
     - Sales & Marketing Data warehouse project: Clickhouse on Google Kubernetes Engine, Apache Airflow + DBT + Polars (ELT system), Google Cloud Storage, MongoDB, PostgreSQL, Metabase / Superset.
@@ -115,7 +115,7 @@ order: 4
 - Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
 
 #### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jan 2022` - `Oct 2022`
-- **Responsibility:**
+- **General responsibility:**
   - Build Python module to auto-cleanse data, build reports, and ETL data automatically
   - ALCO report / GAP report.
   - Daily FTP data management.
@@ -125,7 +125,7 @@ order: 4
 **Technology usages:** Python · PowerBI · SQL · Qlikview
 
 #### <kbd><strong>Data Analyst</strong></kbd> - Hong Ngoc Group | `Apr 2020` - `May 2022`
-- **Responsibility:**
+- **General responsibility:**
   - Manage Services’ cost components, Services’ pricing.
   - Work with BE team to improve the data system.
   - Building report dashboard, make ad-hoc by MS. Excel & Power BI
