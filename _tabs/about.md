@@ -80,7 +80,7 @@ order: 4
     </details>
 
     <details>
-      <summary><strong>Data Operations: </strong></summary>
+      <summary><strong>Data Operations</strong></summary>
       <ul>
         <li>Google Kubernetes Engine, Docker </li>
         <li><strong>Data Catalog:</strong> Datahub, dbdiagrams, dbt documents sever</li>
