@@ -18,7 +18,7 @@ order: 4
       <ul>
         <li><strong>Python: </strong> PySpark, Pandas / <strong>Polars</strong> (Robust single node data processing), Django / Flask (Backend system), Streamlit, Web scrap</li>
         <li><strong>Scala:</strong> Spark, Spark Streaming</li>
-        <li>Advanced SQL</li>
+        <li>SQL</li>
       </ul>
     </details>
 
@@ -41,7 +41,7 @@ order: 4
     <details>
       <summary><strong>Data Processing</strong></summary>
       <ul>
-        <li><strong>Apache Airflow</strong> (Ochestration), Airbyte (Data ingestion layer), DBT (Data Builder Tool) (Transformation layer)</li>
+        <li><strong>Apache Airflow</strong> (Orchestration), Airbyte (Data ingestion layer), DBT (Data Builder Tool) (Transformation layer)</li>
         <li><strong>Spark, Spark Streaming (Scala)</strong> - Distributed data processing</li>
         <li><strong>Flask backend API</strong>: Data-driven Application, Streamlit: Data product</li>
         <li>Enterprise: Azure Data Factory, Databricks flow (Microsoft Azure)</li>
@@ -98,10 +98,13 @@ order: 4
 #### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
 - **Scope of works:** Data Engineer, Data Architecture & Operations.
 - **General responsibilities:**
-  - Build data warehouse architecture + Data Operations, Data Applications, develop ETL & ELT pipelines to ingest data from internal sources & external sources, build Data Catalog system and Data products to deliver analytics results to Business users.
+  - Build **Data warehouse architectures**, manage the design, and data lineage 
+  - Develop **ETL & ELT pipelines** to ingest data from internal sources & external sources 
+  - Propose, develop, and manage **Data Catalog system & Metadata** for all Data repositories and Data products to deliver analytics results to Business Users.
+
 
 1. **Design and manage all data architecture for these projects:**
-    - Sales & Marketing Data warehouse project: Clickhouse on Google Kubernetes Engine, Apache Airflow + DBT + Polars (ELT system), Google Cloud Storage, MongoDB, PostgreSQL, Metabase / Superset.
+    - Sales & Marketing Data warehouse project: Clickhouse on Google Kubernetes Engine, Apache Airflow + DBT + Polars (ELT system), Google Cloud Storage, MongoDB, PostgreSQL, Power BI/ Metabase, Data Catalog system with Open Metadata.
     - HR project Data warehouse project: MongoDB, Mongo Atlas, Airflow, Streamlit, MinIO, PostgreSQL
     - Data products: Streamlit + Google Drive API (Data Collector), Slackbot (Using Flask as event handling)
 2. **Data sources integrations:**
