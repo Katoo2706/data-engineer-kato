@@ -96,7 +96,7 @@ order: 4
 ## My Journey
 
 #### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
-- **Scope of works:** Data Engineer, Data Architecture & Operations.
+- **Scope of works:** Data Engineer, Data Architecture, Data Governance.
 - **General responsibilities:**
   - Build **Data warehouse architectures**, manage the design, and data lineage 
   - Develop **ETL & ELT pipelines** to ingest data from internal sources & external sources 
