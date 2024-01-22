@@ -26,19 +26,12 @@ Recognizing these challenges, I took the initiative to build a comprehensive dat
 
 ## Open Metadata as a Modern Data Catalog System
 
+OpenMetadata is a complete package for data teams to break down team silos, share data assets from multiple sources securely, collaborate around data, and build a documentation-first data culture in the organization.
+
+
 Embracing the need for a modern and robust data catalog, I turned to Open Metadata to address our organization's data management challenges. Open Metadata provides a range of features that make it a cutting-edge solution for enterprises:
 
-- **Unified Metadata Repository:** Open Metadata offers a centralized repository for storing metadata from various sources, providing a single source of truth for the organization's data assets.
-
-- **Extensive Data Integration:** The system seamlessly integrates with diverse databases, data lake systems, data pipelines, and applications, ensuring a comprehensive view of the entire data landscape.
-
-- **Collaborative Documentation:** Open Metadata facilitates collaborative documentation by allowing developers, business analysts, and other stakeholders to contribute and access metadata, fostering a culture of transparency and shared knowledge.
-
-- **Data Lineage and Impact Analysis:** The platform provides robust data lineage tracking and impact analysis capabilities, enabling data engineers and analysts to understand how data flows through the organization and assess the potential impact of changes.
-
-- **Metadata Quality Management:** Open Metadata includes features for managing metadata quality, ensuring that the organization's data assets adhere to defined standards and promoting data accuracy and reliability.
-
-- **API Support and Extensibility:** With support for APIs and extensibility, Open Metadata can be customized to meet specific organizational needs, making it a flexible and scalable solution for evolving data management requirements.
+![Openmetadata](/assets/post/openmetadata-features.png)
 
 By leveraging Open Metadata as our data catalog system, we have not only addressed the challenges highlighted earlier but also paved the way for a more efficient, collaborative, and data-driven enterprise.
 
