@@ -36,7 +36,7 @@ OpenMetadata is a complete package for data teams to break down team silos, shar
 
 Embracing the need for a modern and robust data catalog, I turned to Open Metadata to address our organization's data management challenges. Open Metadata provides a range of features that make it a cutting-edge solution for enterprises:
 
-![Openmetadata](/assets/post/openmetadata-features.png)
+![Openmetadata](/assets/post/open-metadata-features.png)
 
 ### Data Discovery
 OpenMetadata with a single catalog aggregates metadata about all data assets, and presents the right information to users depending on their needs
