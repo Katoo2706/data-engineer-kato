@@ -26,10 +26,10 @@ Recognizing these challenges, I took the initiative to build a comprehensive dat
          
 ![Openmetadata](/assets/post/open-metadata.png)
 
-## Open Metadata as a Modern Data Catalog System
+## Modern Data Catalog System
 
 ![Openmetadata](/assets/post/open-metadata-architecture.png)
-*Open metadata Architecture*
+*Data Catalog Server Architecture*
 
 OpenMetadata is a complete package for data teams to break down team silos, share data assets from multiple sources securely, collaborate around data, and build a documentation-first data culture in the organization.
 
@@ -45,7 +45,6 @@ Users can search across tables, topics, dashboards, pipelines, ML models, contai
 ![data-discovery.gif](/assets/post/data-discovery.gif)
 
 ### Data Collaboration
-OpenMetadata is a catalyst for collaboration that brings data teams together to break the information silos, share organizational knowledge, and sort the data deluge. Users can add documentation, descriptions, and annotations to metadata to provide context and share knowledge about data assets. This encourages collaboration among data users and enhances data understanding.
 - **Conversations Threads:** Collaborate around data assets and tags by asking the right questions and discussing the details right within OpenMetadata.
 
 - **Tasks:** Create tasks around data assets to create and update descriptions, request for tags, and initiate a glossary term approval workflow.
@@ -64,13 +63,13 @@ OpenMetadata provides Data Quality workflows, which helps with:
 ![Openmetadata](/assets/post/open-metadata-quality.png)
 
 ### Data Lineage
-OpenMetadata tracks data lineage, showing how data moves through the organization's systems. Users can visualize how data is transformed and where it is used, helping with data traceability and impact analysis. OpenMetadata supports lineage for Database, Dashboard, and Pipelines.
+Tracks data lineage, showing how data moves through the organization's systems. Users can visualize how data is transformed and where it is used, helping with data traceability and impact analysis. OpenMetadata supports lineage for Database, Dashboard, and Pipelines.
 
 ### Data Insights
-OpenMetadata is a centralized, active metadata repository where all your data resides. Organizations can drive the adoption of OpenMetadata by monitoring its usage and setting up company-wide KPIs. The built-in goal-setting and tracking mechanisms help proactively drive your company's data culture. You can define the Key Performance Indicators and set goals to be achieved within a timeframe towards better documentation, ownership, and tiering.
+Centralized, active metadata repository where all your data resides. Organizations can drive the adoption of OpenMetadata by monitoring its usage and setting up company-wide KPIs. The built-in goal-setting and tracking mechanisms help proactively drive your company's data culture. You can define the Key Performance Indicators and set goals to be achieved within a timeframe towards better documentation, ownership, and tiering.
 
 ### Data Governance
-OpenMetadata is a rich collaborative platform for data teams. Data producers and data consumers can access all their organizational metadata from OpenMetadata. Users can mutually benefit from the team’s collaborative expertise around data. With several teams and users having access to the organizational data assets in OpenMetadata, it is crucial to have some form of governance in place. OpenMetadata supports fine-grained Access Control Roles and Policies to ensure data security.
+A rich collaborative platform for data teams. Data producers and data consumers can access all their organizational metadata from OpenMetadata. Users can mutually benefit from the team’s collaborative expertise around data. With several teams and users having access to the organizational data assets in OpenMetadata, it is crucial to have some form of governance in place. OpenMetadata supports fine-grained Access Control Roles and Policies to ensure data security.
 
 Apart from well-defined access control roles and policies, a common vocabulary within the organization fosters effective collaboration and helps in data governance. A Business Glossary plays an important role in defining the common terminology in the organization. Data also needs be classified and tagged for policy enforcement purposes like privacy policy, data management policy, data retention policy, and so on. Using Classification you can manage access to the PII sensitive data in OpenMetadata.
 
