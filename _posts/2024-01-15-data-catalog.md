@@ -64,6 +64,8 @@ OpenMetadata provides Data Quality workflows, which helps with:
 
 ### Data Lineage
 Tracks data lineage, showing how data moves through the organization's systems. Users can visualize how data is transformed and where it is used, helping with data traceability and impact analysis. OpenMetadata supports lineage for Database, Dashboard, and Pipelines.
+![Openmetadata](/assets/post/open-metadata-lineage.png)
+*For Example, we can have an explicit view of how data come from data sources to data warehouse*
 
 ### Data Insights
 Centralized, active metadata repository where all your data resides. Organizations can drive the adoption of OpenMetadata by monitoring its usage and setting up company-wide KPIs. The built-in goal-setting and tracking mechanisms help proactively drive your company's data culture. You can define the Key Performance Indicators and set goals to be achieved within a timeframe towards better documentation, ownership, and tiering.
