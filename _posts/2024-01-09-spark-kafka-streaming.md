@@ -6,6 +6,8 @@ categories: [Data Processing, Streaming]
 tags: [Apache Spark, Apache Kafka, Scala, Cassandra, Postgres]
 render_with_liquid: false
 published: true
+image:
+  path: /assets/post/kafka-spark.png
 ---
 
 ## Introduction

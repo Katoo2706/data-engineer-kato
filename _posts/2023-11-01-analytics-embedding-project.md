@@ -6,9 +6,22 @@ categories: [Projects, BI dashboard embedding]
 tags: [Python, Flask, Superset, Metabase]
 render_with_liquid: false
 published: true
+image:
+  path: /assets/post/superset-react.png
 ---
 
-# Embed analytics dashboard on software
+## Introduction
+
+Do you feel sadness when users cannot visit your BI platforms? Do you experience a sense of inadequacy when your Analytics Application is unattractive and lacking in analytical capabilities?
+
+So, I've developed an Analytics Application which can user BI platform to serve Analytics Page
+
+![Embed architecture](/assets/post/demo-embed-dashboard.png)
+*Demo*
+
+## Architecture
+![Embed architecture](/assets/post/embed-architecture.png)
+
 
 > Updating...
 {: .prompt-info }

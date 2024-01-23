@@ -6,6 +6,8 @@ categories: [Microsoft Azure, Databricks]
 tags: [Pyspark, Databricks, Microsoft Azure, Azure Data Factory, Azure Data Lake Storage, Azure Key Vault]
 render_with_liquid: false
 published: true
+image:
+  path: /assets/post/azure-arch.png
 ---
 
 ## Introduction
