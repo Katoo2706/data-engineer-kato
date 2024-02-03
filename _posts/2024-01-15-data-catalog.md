@@ -54,6 +54,7 @@ Users can search across tables, topics, dashboards, pipelines, ML models, contai
 ### Overview of Data Quality and Profiler
 With OpenMetadata, you can build trust in your data by creating tests to monitor that the data is complete, fresh, and accurate. OpenMetadata supports data quality tests for all of the supported database connectors. Users can run tests at the table and column levels to verify their data for business as well as technical use cases.
 
+#### Data quality.
 OpenMetadata provides Data Quality workflows, which helps with:
 - Native tests for all database connectors to run assertions.
 - Alerting system to send notifications on test failure.
@@ -61,6 +62,10 @@ OpenMetadata provides Data Quality workflows, which helps with:
 - Resolution workflow to inform the data consumer on test resolutions.
 
 ![Openmetadata](/assets/post/open-metadata-quality.png)
+
+#### Data profiler
+Data profiles enable you to check for null values in non-null columns, for duplicates in a unique column, etc. You can gain a better understanding of column data distributions through descriptive statistics provided.
+![Openmetadata](/assets/post/data-profiler.png)
 
 ### Data Lineage
 Tracks data lineage, showing how data moves through the organization's systems. Users can visualize how data is transformed and where it is used, helping with data traceability and impact analysis. OpenMetadata supports lineage for Database, Dashboard, and Pipelines.
@@ -73,7 +78,11 @@ Centralized, active metadata repository where all your data resides. Organizatio
 ### Data Governance
 A rich collaborative platform for data teams. Data producers and data consumers can access all their organizational metadata from OpenMetadata. Users can mutually benefit from the team’s collaborative expertise around data. With several teams and users having access to the organizational data assets in OpenMetadata, it is crucial to have some form of governance in place. OpenMetadata supports fine-grained Access Control Roles and Policies to ensure data security.
 
-Apart from well-defined access control roles and policies, a common vocabulary within the organization fosters effective collaboration and helps in data governance. A Business Glossary plays an important role in defining the common terminology in the organization. Data also needs be classified and tagged for policy enforcement purposes like privacy policy, data management policy, data retention policy, and so on. Using Classification you can manage access to the PII sensitive data in OpenMetadata.
+#### Role Based Access Control
+Each role has a defined policy. Policies are composed of a set of rules. Rules allow/deny access to metadata operations such as updating descriptions, tags, owners, and lineage.
+
+For example, users who are assigned to this policy only can contribute tags, descriptions and can not see the data sample & profiler
+![Openmetadata](/assets/post/data-policy.png)
 
 > By leveraging Open Metadata as our data catalog system, we have not only addressed the challenges highlighted earlier but also paved the way for a more efficient, collaborative, and data-driven enterprise.
 {: .prompt-tip }

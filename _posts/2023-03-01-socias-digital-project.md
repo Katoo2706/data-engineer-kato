@@ -14,4 +14,5 @@ published: true
 > - Frontend: React
 > - App backend: NodeJS
 
-Landing page: 
+## User 
+Landing page: https://socias.katoengineer.com/

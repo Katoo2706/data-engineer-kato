@@ -17,7 +17,7 @@ Do you feel sadness when users cannot visit your BI platforms? Do you experience
 So, I've developed an Analytics Application which can user BI platform to serve Analytics Page
 
 ![Embed architecture](/assets/post/demo-embed-dashboard.png)
-*Demo*
+*This is a demo dashboard*
 
 ## Architecture
 ![Embed architecture](/assets/post/embed-architecture.png)
