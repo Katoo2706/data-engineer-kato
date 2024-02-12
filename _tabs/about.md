@@ -16,7 +16,7 @@ order: 4
     <details>
       <summary><strong>Language</strong></summary>
       <ul>
-        <li><strong>Python: </strong> PySpark, Pandas / <strong>Polars</strong> (Robust single node data processing), Django / Flask (Backend system), Streamlit, Web scrap</li>
+        <li><strong>Python: </strong> PySpark, Pandas / <strong>Polars</strong> (Robust single node data processing), Django / Flask (Backend system), Streamlit</li>
         <li><strong>Scala:</strong> Spark, Spark Streaming</li>
         <li>SQL</li>
       </ul>
