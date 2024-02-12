@@ -136,10 +136,8 @@ order: 4
   - Improve and build the whole new Report dashboard, and improve data processing method of the team.
 
 -------
-## Certification
-
-> *"For me, certificates are not an end in themselves. As far as I am concerned, it's about the progress to achieve all of that."*
+## Validation
 
 > **IBM Data Engineering Professional Certificate** &nbsp; <a href="https://www.credly.com/badges/1ec2274c-8c05-411a-94e0-e0e20927e5f2/" target="_blank"> <img src="/assets/post/credly.png" alt="Certification Icon" style="height: 20px;"> </a>
 
-> <a href="https://www.linkedin.com/in/katoo2706/details/certifications/" target="_blank"> <img src="/assets/img/logo/linkedin.png" alt="Certification Icon" style="height: 18px;"> </a>
+> *"For me, certificates are not an end in themselves. As far as I am concerned, it's about the progress to achieve all of that". Please visit `Linkedin` to see all my certificates:* &nbsp; <a href="https://www.linkedin.com/in/katoo2706/details/certifications/" target="_blank"> <img src="/assets/img/logo/linkedin.png" alt="Certification Icon" style="height: 18px;"> </a>
