@@ -43,6 +43,9 @@ If changes extend beyond adding fields to altering column names or deleting exis
 3. Modify the SQL scripts for DBT.
 4. Re-run the process. `DBT` will automatically adjust the schema structure if new fields arrive with the parameter `on_schema_change` = `sync_all_columns`.
 
+In the transformation layer, DBT will be trigger by airflow via subprocess. The output from console will be captured and print on Airflow log.
+![Airflow dbt](/assets/post/airflow-dbt.png)
+
 > This approach ensures `clarity` and `transparency` when maintaining data pipelines, and fault tolerance.
 {: .prompt-tip }
 
