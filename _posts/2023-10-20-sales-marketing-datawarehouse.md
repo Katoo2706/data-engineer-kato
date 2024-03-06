@@ -46,6 +46,30 @@ If changes extend beyond adding fields to altering column names or deleting exis
 In the transformation layer, DBT will be trigger by airflow via subprocess. The output from console will be captured and print on Airflow log.
 ![Airflow dbt](/assets/post/airflow-dbt.png)
 
+## 3. Airflow running on Kubernetes
+The Kubernetes Executor is an Airflow feature that allows you to execute multiple Airflow tasks in parallel, each within its own isolated environment, using Kubernetes Pods.
+
+The Kubernetes Executor offers several advantages, including:
+
+### 1.Resource isolation and task-level configurations:
+
+Each task runs in an isolated environment, reducing interference between tasks and allowing resources to be specified at an individual task level. This isolation and flexibility enhances security and stability, which are vital for complex workflows.
+
+### 2. Cost and resource efficiency:
+
+With the Kubernetes Executor, your web server and scheduler costs remain fixed. However, compared to the celery executor, the dynamic scaling of task instance pods allow you to shed the fixed cost of having a celery worker up for 24 hours a day.
+
+### 3. No interruption to running tasks:
+
+Some tasks, like machine learning tasks, are expensive to restart. Kubernetes considers nodes with running task instance pods as unsafe to evict, meaning you can reliably run 24-hour or longer workloads.
+
+
+### 4. Cluster Orchestration:
+
+With the Kubernetes Executor, Airflow can distribute tasks across a Kubernetes cluster, enabling parallel execution and faster completion of data pipelines.
+
+Reference: https://www.astronomer.io/blog/leveraging-apache-airflow-and-kubernetes-for-data-processing/
+
 > This approach ensures `clarity` and `transparency` when maintaining data pipelines, and fault tolerance.
 {: .prompt-tip }
 
