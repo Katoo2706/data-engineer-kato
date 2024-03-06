@@ -48,6 +48,7 @@ In the transformation layer, DBT will be trigger by airflow via subprocess. The 
 
 ## 3. Airflow running on Kubernetes
 The Kubernetes Executor is an Airflow feature that allows you to execute multiple Airflow tasks in parallel, each within its own isolated environment, using Kubernetes Pods.
+![Kubernetes](/assets/post/kubectkexecutors.png)
 
 The Kubernetes Executor offers several advantages, including:
 
