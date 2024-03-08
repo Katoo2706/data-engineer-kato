@@ -6,6 +6,8 @@ categories: [Projects, Sales & Marketing Data warehouse]
 tags: [Apache Airflow, Apache Spark, Polars, Apache Arrow, Pandas, Kubernetes, Helm chart, DBT]
 render_with_liquid: false
 published: true
+image:
+  path: /assets/post/dwh.png
 ---
 
 ## Introduction
@@ -52,20 +54,20 @@ The Kubernetes Executor is an Airflow feature that allows you to execute multipl
 
 The Kubernetes Executor offers several advantages, including:
 
-### 1.Resource isolation and task-level configurations:
+### Resource isolation and task-level configurations:
 
 Each task runs in an isolated environment, reducing interference between tasks and allowing resources to be specified at an individual task level. This isolation and flexibility enhances security and stability, which are vital for complex workflows.
 
-### 2. Cost and resource efficiency:
+### Cost and resource efficiency:
 
 With the Kubernetes Executor, your web server and scheduler costs remain fixed. However, compared to the celery executor, the dynamic scaling of task instance pods allow you to shed the fixed cost of having a celery worker up for 24 hours a day.
 
-### 3. No interruption to running tasks:
+### No interruption to running tasks:
 
 Some tasks, like machine learning tasks, are expensive to restart. Kubernetes considers nodes with running task instance pods as unsafe to evict, meaning you can reliably run 24-hour or longer workloads.
 
 
-### 4. Cluster Orchestration:
+### Cluster Orchestration:
 
 With the Kubernetes Executor, Airflow can distribute tasks across a Kubernetes cluster, enabling parallel execution and faster completion of data pipelines.
 

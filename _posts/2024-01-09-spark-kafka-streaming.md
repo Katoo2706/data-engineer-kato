@@ -2,7 +2,7 @@
 title: Spark Streaming 3 and Integrate with Kafka, JDBC, Cassandra with Scala
 author: kato
 date: 2024-01-09 00:10:00 +0800
-categories: [Data Processing, Streaming]
+categories: [Big Data, Streaming]
 tags: [Apache Spark, Apache Kafka, Scala, Cassandra, Postgres]
 render_with_liquid: false
 published: true
