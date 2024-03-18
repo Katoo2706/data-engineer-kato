@@ -76,7 +76,13 @@ Reference: https://www.astronomer.io/blog/leveraging-apache-airflow-and-kubernet
 > This approach ensures `clarity` and `transparency` when maintaining data pipelines, and fault tolerance.
 {: .prompt-tip }
 
-## 3. What's else?
+## 4. Monitoring the data pipelines
+For this project, I've built an ETL subsystem to monitor the data pipeline, include data throughput, data pipeline performance and portion of each data source.
+
+For example:
+![data-pipeline-monitor.png](/assets/post/sales-warehouse/data-pipeline-monitor.png)
+
+## What's else?
 
 > Updating...
 {: .prompt-info }
