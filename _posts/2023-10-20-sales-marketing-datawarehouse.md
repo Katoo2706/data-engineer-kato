@@ -77,7 +77,9 @@ Reference: https://www.astronomer.io/blog/leveraging-apache-airflow-and-kubernet
 {: .prompt-tip }
 
 ## 4. Monitoring the data pipelines
-For this project, I've built an ETL subsystem to monitor the data pipeline, include data throughput, data pipeline performance and portion of each data source.
+For this project, I've built an ETL subsystem to monitor the data pipeline, to:
+- Manage data throughput, by data sources / tables.
+- Troubleshoot any failures occurring daily.
 
 For example:
 ![data-pipeline-monitor.png](/assets/post/sales-warehouse/data-pipeline-monitor.png)
