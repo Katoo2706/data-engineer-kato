@@ -45,10 +45,11 @@ If changes extend beyond adding fields to altering column names or deleting exis
 3. Modify the SQL scripts for DBT.
 4. Re-run the process. `DBT` will automatically adjust the schema structure if new fields arrive with the parameter `on_schema_change` = `sync_all_columns`.
 
-In the transformation layer, DBT will be trigger by airflow via subprocess. The output from console will be captured and print on Airflow log.
-![Airflow dbt](/assets/post/airflow-dbt.png)
-
 ## 3. Airflow running on Kubernetes
+
+We can utilize task_group and chain to design data pipelines, making it easy to manage resources for each phase of the data processing workload.
+![Tasks dependencies](/assets/post/task_dependencies.png)
+
 The Kubernetes Executor is an Airflow feature that allows you to execute multiple Airflow tasks in parallel, each within its own isolated environment, using Kubernetes Pods.
 ![Kubernetes](/assets/post/kubectlexecutors.png)
 
