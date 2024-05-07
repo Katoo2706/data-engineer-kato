@@ -95,7 +95,11 @@ order: 4
 -------
 ## My Journey
 
-#### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Now`
+#### <kbd><strong>Data Engineer</strong></kbd> - FPT Software | `May 2024` - `Now`
+> Updating...
+{: .prompt-info }
+
+#### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `May 2024`
 - **Scope of works:** Data Engineer, Data Architecture, Data Governance.
 - **General responsibilities:**
   - Build **Data warehouse architectures**, manage the data **model designs**, and **data lineages**
