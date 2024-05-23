@@ -95,7 +95,7 @@ order: 4
 -------
 ## My Journey
 
-#### <kbd><strong>Data Engineer</strong></kbd> - FPT Software | `May 2024` - `Now`
+#### <kbd><strong>Senior Data Engineer</strong></kbd> - FPT Software | `May 2024` - `Now`
 > Updating...
 {: .prompt-info }
 
