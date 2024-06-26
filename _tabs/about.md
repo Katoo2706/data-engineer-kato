@@ -142,6 +142,8 @@ order: 4
 -------
 ## Validation
 
+> **AWS Certified Data Engineer – Associate** &nbsp; <a href="https://www.credly.com/badges/830a7057-1040-4e2a-b7d5-49fdbcb4a109/public_url" target="_blank"> <img src="/assets/post/aws_de.png" alt="Certification Icon" style="height: 20px;"> </a>
+
 > **IBM Data Engineering Professional Certificate** &nbsp; <a href="https://www.credly.com/badges/1ec2274c-8c05-411a-94e0-e0e20927e5f2/" target="_blank"> <img src="/assets/post/credly.png" alt="Certification Icon" style="height: 20px;"> </a>
 
 > *"For me, certificates are not an end in themselves. As far as I am concerned, it's about the progress to achieve all of that". Please visit `Linkedin` to see all my certificates:* &nbsp; <a href="https://www.linkedin.com/in/katoo2706/details/certifications/" target="_blank"> <img src="/assets/img/logo/linkedin.png" alt="Certification Icon" style="height: 18px;"> </a>
