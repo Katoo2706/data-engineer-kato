@@ -95,11 +95,11 @@ order: 4
 -------
 ## My Journey
 
-#### <kbd><strong>Senior Data Engineer</strong></kbd> - FPT Software | `May 2024` - `Now`
+#### <kbd><strong>Senior Data Engineer</strong></kbd> - FPT Software | `Apr 2024` - `Now`
 > Updating...
 {: .prompt-info }
 
-#### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `May 2024`
+#### <kbd><strong>Data Engineer</strong></kbd> - Advesa Digital & Breadstack Technologies Company | `Oct 2022` - `Apr 2024`
 - **Scope of works:** Data Engineer, Data Architecture, Data Governance.
 - **General responsibilities:**
   - Build **Data warehouse architectures**, manage the data **model designs**, and **data lineages**
@@ -118,7 +118,7 @@ order: 4
 
 **Technology usages:** ClickHouse · Apache Superset · Data Warehousing · Data Engineering · Mongo Atlas · MinIO · SQL · Streamlit · Python (Programming Language) · Data Modeling · Apache Airflow · PostgreSQL · MongoDB
 
-#### <kbd><strong>Analytics Engineering Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
+#### <kbd><strong>Data Engineer & Analyst Mentor </strong></kbd> - FUNiX Technologies School | `Jul 2023` - `Now`
 - Empowered Future Data Professionals: Mentored at FUNiX School, providing practical guidance in data analytics and engineering.
 
 #### <kbd><strong>ALM Specialist</strong></kbd> - TPBank | `Jul 2022` - `Oct 2022`
